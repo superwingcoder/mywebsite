@@ -1,0 +1,102 @@
+/***************** TAG SELECTORS *****************/
+body{
+  background-color: #585858;
+  margin: 0;
+  height: 100%;
+}
+hr{
+  background-color: white;
+  height: 4px;
+  width: 90%;
+}
+html{
+  height: 100%;
+}
+img{
+  height: 200px;
+}
+img:hover{
+  background-color: gold;
+}
+
+h2{
+  font-family: inherit;
+}
+
+p{
+  font-family: inherit;
+}
+
+
+/***************** CLASS SELECTORS *****************/
+.banner {
+  background-color: black;
+  padding: none;
+}
+
+.float-container{
+  height: 100%;
+}
+
+.logo{
+  height: 20%;
+  width: 20%;
+}
+
+.main{
+  background-color: white;
+  height: 100%;
+  float: left;
+  width: 80%;
+}
+
+.main-card{
+  margin: 40px;
+  padding: 5px;
+  float: left;
+  line-height: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 35%;
+}
+
+.side-banner{
+  background-color: #8034eb;
+  border-color: black;
+  float: left;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 20%;
+}
+
+.side-banner h2{
+  padding-left: 30px;
+}
+
+.side-banner img{
+  float: left;
+  height: 2%;
+  margin: 5px;
+}
+
+.side-banner p{
+  color: black;
+  padding: 1px;
+  font-size: 120%
+}
+
+.user-logo{
+  height: 5%;
+  width: 5%;
+  float: right;
+  margin: 4%;
+}
+
+/***************** ID SELECTORS *****************/
+#heading {
+  color: red;
+}
